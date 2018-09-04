@@ -1,8 +1,1 @@
-spring:
-  application:
-    name: ConfigClientApplication
-  profiles:
-    active: dev
-  cloud:
-    config:
-      uri: http://localhost:8888
+msg: Hello world - this is from config server.
