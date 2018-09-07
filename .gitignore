@@ -8,6 +8,7 @@
 .springBeans
 .sts4-cache
 .mvn
+.project
 
 ### IntelliJ IDEA ###
 .idea
