@@ -4,6 +4,11 @@ spring:
     config:
       server:
         git:
-          uri: C:\Users\MA20011300\git\ConfigServer\ConfigServerRepository
+          uri: https://github.com/MazinIsmail/ConfigServer.git
 server:
   port: 8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

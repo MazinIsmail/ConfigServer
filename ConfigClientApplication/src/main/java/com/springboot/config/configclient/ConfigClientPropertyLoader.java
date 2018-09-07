@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @RefreshScope
 public class ConfigClientPropertyLoader {
 
-	@Value("${msg:Hello world - Config Server is not working..pelase check}")
+	@Value("${msg:Hello world - Config Server is not working.}")
 	private String msg;
 
 	public String getMsg() {
